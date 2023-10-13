@@ -22,3 +22,5 @@ def test_convert_two_times():
     # ทำไม?? ทำไมต้อง round() ??
     # TODO: answer this
     assert convert_to_celsius(convert_to_fahrenheit(42)) == round(42.00000000000001)
+
+#%%

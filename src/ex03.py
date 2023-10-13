@@ -14,6 +14,13 @@ def is_odd(num):
         bool: True if the number is odd, False otherwise.
     """
     # TODO : complete this
+    if type(num) == int:
+        if num % 2 == 0:
+            return False
+        else:
+            return True
+    else:
+        return False
     pass
 
 
@@ -28,4 +35,11 @@ def is_even(num):
         bool: True if the number is even, False otherwise.
     """
     # TODO : complete this
+    if type(num) == int:
+        if num % 2 == 0:
+            return True
+        else:
+            return False
+    else:
+        return False
     pass
